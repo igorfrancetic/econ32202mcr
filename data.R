@@ -1,5 +1,5 @@
 # Set path
-path="C:/Users/s48620if/Dropbox (The University of Manchester)/Teaching/ECON32202 2023/Tutorials/Tutorial 4 2023"
+path=dirname(rstudioapi::getSourceEditorContext()$path)
 setwd(path)
 
 # Set seed
